@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 70px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+.nav-logo{
+   
+    height: 50px;
+    width: 160px;
+    overflow: hidden;
+    margin-top: 6px;
+    margin-left: 10px;
+    
+
+}
+.nav-search{
+    display: flex;
+    align-items: center;
+    background-color: #f0f5ff;
+    width: 550px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 1px;
+    background-color: transparent;
+    border: 0px solid;
+
+
+}
+.search-icon{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+.nav-signin{
+    display: flex;
+    font-weight: 2px;
+    justify-content: center;
+
+}
+.signin-icon{
+    margin-left: 9px;
+}
+.nav-cart{
+    display: flex;
+    font-weight: 2px;
+    justify-content: center;
+}
+.cart-icon{}
+.nav-seller{
+    display: flex;
+    font-weight: 2px;
+    justify-content: center;
+}
